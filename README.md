@@ -3,7 +3,7 @@
 Repositório destinado aos meus estudos e exercícios de Java.
 
 ## 🚀 Tecnologias
-- Java 17 (ou a versão que você usa)
+- Java 21
 - Maven
 - IntelliJ IDEA
 
