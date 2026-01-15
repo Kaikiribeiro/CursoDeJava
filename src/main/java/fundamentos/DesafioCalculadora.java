@@ -5,20 +5,21 @@ import java.util.Scanner;
 public class DesafioCalculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o primeiro número: ");
-        double num1 = scanner.nextDouble();
+        System.out.println("Digite o 1° numero: ");
+        double numero1 = scanner.nextDouble();
+        System.out.println("Digite o 2° numero: ");
+        double numero2 = scanner.nextDouble();
+        System.out.println("Digite a operação: ");
+        String operacao = scanner.next();
+         double resultado = 0;
 
-        System.out.println("Digite o segundo número: ");
-        double num2 = scanner.nextDouble();
+         resultado = operacao.equals("+") ? numero1 + numero2 : resultado;
+         resultado = operacao.equals("-") ? numero1 - numero2 : resultado;
+         resultado = operacao.equals("*") ? numero1 * numero2 : resultado;
+         resultado = operacao.equals("/") ? numero1 / numero2 : resultado;
+         resultado = operacao.equals("%") ? numero1 % numero2 : resultado;
 
-        System.out.println("Qual operação você quer fazer: + - * / %");
-        String operador = scanner.next();
-
-        System.out.print(operador.equals("+") ? num1 + num2 : "");
-        System.out.print(operador.equals("-") ? num1 - num2 : "");
-        System.out.print(operador.equals("*") ? num1 * num2 : "");
-        System.out.print(operador.equals("/") ? num1 / num2 : "");
-        System.out.print(operador.equals("%") ? num1 % num2 : "");
+        System.out.println("O resultado é: " + resultado);
 
         scanner.close();
     }
