@@ -1,5 +1,7 @@
 # Curso de Java 🚀
 
+![Java](https://img.shields.io/badge/Java-21-orange) ![Maven](https://img.shields.io/badge/Maven-Build-blue) ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-green)
+
 Repositório dedicado ao armazenamento de estudos, exercícios e projetos práticos desenvolvidos durante o meu aprendizado da linguagem Java.
 
 ## 📈 Evolução e Progresso
@@ -26,9 +28,13 @@ O projeto está organizado em pacotes seguindo as etapas do aprendizado:
 1.  Certifique-se de ter o **JDK 21** instalado.
 2.  Clone o repositório:
     ```bash
-    git clone [https://github.com/Kaikiribeiro/CursoDeJava.git](https://github.com/Kaikiribeiro/CursoDeJava.git)
+    git clone https://github.com/Kaikiribeiro/CursoDeJava.git
     ```
 3.  Importe o projeto na sua IDE de preferência como um projeto Maven.
+
+## 📄 Licença
+
+Este projeto é de uso livre para fins de estudo.
 
 ---
 *Estudado e desenvolvido por [Kaikiribeiro](https://github.com/Kaikiribeiro)*

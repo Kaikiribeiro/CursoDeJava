@@ -1,4 +1,4 @@
-package classe;
+package classe.DesafioModulo;
 
 public class Jantar {
     public static void main(String[] args) {

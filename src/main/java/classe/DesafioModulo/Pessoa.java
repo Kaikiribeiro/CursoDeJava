@@ -1,4 +1,4 @@
-package classe;
+package classe.DesafioModulo;
 
 public class Pessoa {
     String nome;
@@ -16,6 +16,6 @@ public class Pessoa {
     }
 
     String apresentar() {
-        return "Oi meu nome " + nome + "e tenho " + peso + "Kg.";
+        return "Oi meu nome é " + nome + " e tenho " + peso + "Kg.";
     }
 }

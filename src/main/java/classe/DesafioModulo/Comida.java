@@ -1,4 +1,4 @@
-package classe;
+package classe.DesafioModulo;
 
 public class Comida {
     String nome;
